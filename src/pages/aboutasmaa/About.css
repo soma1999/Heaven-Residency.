@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(202, 202, 223);
+    background-image: radial-gradient(at 88% 40%, hsla(210, 4%, 91%, 0.54) 0px, transparent 85%), radial-gradient(at 49% 30%, hsl(240deg 15.56% 98.63%) 0px, transparent 85%), radial-gradient(at 14% 26%, hsl(192.92deg 97.58% 73.88%) 0px, transparent 85%), radial-gradient(at 0% 64%, hsl(241.47deg 100% 92.93%) 0px, transparent 85%), radial-gradient(at 41% 94%, hsl(217, 16%, 45%) 0px, transparent 85%), radial-gradient(at 100% 99%, hsl(206.39deg 100% 96.48%) 0px, transparent 85%);
+    border-radius: 1rem;
+   
+  }
+
+  .about1-container {
+    display: flex;
+    gap: 20px; /* Space between the cards */
+    justify-content: center; /* Center the cards horizontally */
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 20rem;
+
+   
+}
+
+
+
+  
+  .about1{
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(240, 15%, 9%);
+    --paragraph: hsl(0, 0%, 83%);
+    --line: hsl(240, 9%, 17%);
+    --primary: hsl(266, 92%, 58%);
+  
+    position: relative;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  
+    padding: 1rem;
+    width: 19rem;
+    background-color: rgb(202, 202, 223);
+    background-image: radial-gradient(at 88% 40%, hsla(235, 92%, 76%, 0.54) 0px, transparent 85%), radial-gradient(at 49% 30%, hsl(240deg 15.56% 98.63%) 0px, transparent 85%), radial-gradient(at 14% 26%, hsl(192.92deg 97.58% 73.88%) 0px, transparent 85%), radial-gradient(at 0% 64%, hsl(241.47deg 100% 92.93%) 0px, transparent 85%), radial-gradient(at 41% 94%, hsl(180.55deg 100% 87.47%) 0px, transparent 85%), radial-gradient(at 100% 99%, hsl(206.39deg 100% 96.48%) 0px, transparent 85%);
+    border-radius: 1rem;
+    margin-bottom: 30rem;
+
+   
+ 
+  }
+
+
+
+  .about1:hover {
+    background-color: #5353ff;
+    color: #ffffff;
+    transform: translate(1px, -1px);
+  }
+  
+  
+  
+  
+  .about1.line {
+    width: 100%;
+    height: 0.1rem;
+    background-color: var(--line);
+  
+    border: none;
+  }
+  
+  
+
+  .about2{
+    font-size: 2.5rem;
+    color:rgb(172, 180, 29); 
+    margin-left: 4rem;
+    font-family
+    :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  .about3{
+    color: rgb(55, 55, 76); 
+
+
+  }
+
+  .img-container {
+    display: flex;
+    margin-bottom: 4rem;
+ 
+}
+  
+
+  .imaagA{
+    margin-top: 2rem;
+    margin-left: 18rem;
+    border-radius: 10%;
+    max-width: 40rem;
+  }
+
+
+
+  
+
+  .imag22{
+     max-width: 30rem;
+     margin-left: 8rem;
+    }
+     
+
+  
+  .imag23{
+    max-width: 10rem;
+    margin-top: 4.5rem;
+    margin-left: 8rem;
+     }
+
+  .imag24{
+      max-width: 10rem;
+      margin-left: 10rem;
+      margin-top: 2rem;
+
+   }
+    
+
+  .aboyt-us{
+    justify-content: center;
+    text-transform: uppercase;
+    display: flex;
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(11, 58, 100);
+    z-index: 2;
+    font-family: "Anton",'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 1rem;
+    
+    
+  } 
+  .aboyt-us2{
+    justify-content: center;
+    text-transform: uppercase;
+    display: flex;
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(11, 58, 100);
+    z-index: 2;
+    font-family: "Anton",fantasy;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+  } 
+
+  

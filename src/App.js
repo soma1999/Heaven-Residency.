@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header/Header';
+import Contact from './pages/contact/Contact';
+import Home from './pages/Home';
+import Nopage from './pages/Nopage';
+import Hero from './components/Hero/Hero';
+import {motion} from 'framer-motion'
+import CounterUpPage from './CounterUpPage';
+import Schedule from './pages/schedule/Schedule';
+import About from './pages/aboutasmaa/About';
+import Location from './pages/Location/Location';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App">
+    </div>
+    <Footer/>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Hero />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Schedule" element={<Schedule />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Location" element={<Location />}/>
+
+        </Routes>
+      </Router>
     </div>
   );
 }

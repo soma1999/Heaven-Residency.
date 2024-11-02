@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.logo{
+    padding-top: 2rem;
+    max-width: 7rem;
+    
+    
+}
+
+.header-menu li:hover{
+    transform: translateY(-3px);
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    top: 35px;
+    min-width: 150px;
+    z-index: 1;
+}
+
+
+.header-menu li a {
+    text-decoration: none; /* Remove underline */
+    color: rgb(6, 37, 105); /* Change link color to black or any desired color */
+}
+
+
+.project-name{
+    margin-right: 40rem;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+    color:rgb(71, 110, 154);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+    
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }

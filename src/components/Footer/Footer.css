@@ -1,0 +1,33 @@
+/* src/components/Footer.css */
+
+.footer {
+ 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #031f3a;
+  color: #b48080;
+  margin-bottom: -20rem;
+
+  
+
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    height: 15rem;
+    margin: 0 auto;
+    
+  }
+  
+  .footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+
+  }

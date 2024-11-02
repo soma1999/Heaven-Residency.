@@ -1,0 +1,154 @@
+
+.map-container{
+  
+    margin-bottom: 4rem;
+    gap: 5rem;
+}
+
+.titel{
+  font-size: 3rem;
+  justify-content: center;
+  display: flex;
+  color: #082f5a;
+  font-family: "Anton",fantasy;
+  margin-top: 3rem;
+}
+
+.titel-dicription{
+
+  font-size: 1rem;
+
+  color: #082f5a;
+  font-family:unset;
+  margin-left: 10rem;
+  margin-right: 5rem;
+  margin-top: 3rem;
+}
+
+.title-discription2{
+
+  justify-content: center;
+  display: flex;
+  font-size: 1rem;
+  color: #082f5a;
+  font-family:unset;
+  margin-left: 10rem;
+  margin-right: 5rem;
+  
+}
+
+
+
+.view-container{
+  display: flex;
+  justify-content: center;
+right: 30rem;
+gap: 4rem;
+margin-bottom: 1rem;
+margin-top: 5rem;
+}
+
+
+
+.card-map{
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+    background: #fafbfc02;
+    box-shadow: 20px 20px 60px #c3ddf9,
+
+}
+
+.map-frame{
+  justify-content: center;
+  display: flex;
+  margin-left: 8rem;
+max-width: 70rem;
+}
+
+
+
+
+
+.card1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  background: white;
+  padding: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.card1-image {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 200px;
+  height: 150px;
+  border-radius: 6px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.card1-image:hover {
+  transform: scale(0.98);
+  transition: transform 0.3s ease;
+}
+
+.card1-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(63, 121, 230);
+  padding-bottom: 5px;
+  text-align: left; /* Align text to the left */
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 1.8rem;
+  color: rgb(24, 56, 104);
+  margin-bottom: 10px;
+  text-align: left; /* Align text to the left */
+}
+
+.heading:hover {
+  cursor: pointer;
+}
+
+.author {
+  color: gray;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: left; /* Align text to the left */
+}
+
+.name {
+  font-weight: 600;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+
+
+.zoha{
+  width: 12rem;
+  height: 9rem;
+  margin-left: 0.2rem;
+}
